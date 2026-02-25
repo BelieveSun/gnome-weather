@@ -3,7 +3,7 @@
 GNOME Shell 天气扩展，支持 **心知天气 (Seniverse)** 和 **和风天气 (QWeather)** 双数据源。
 
 ![GNOME Shell](https://img.shields.io/badge/GNOME_Shell-46%20|%2047%20|%2048-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+![License](https://img.shields.io/badge/license-Apache%202.0-blue)
 
 ## 功能
 
