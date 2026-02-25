@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.seniverse-weather"
+          path="/org/gnome/shell/extensions/seniverse-weather/">
+
+    <!-- 通用设置 -->
+    <key name="weather-provider" type="s">
+      <default>'seniverse'</default>
+      <summary>天气数据源 (seniverse / qweather)</summary>
+    </key>
+    <key name="city-name" type="s">
+      <default>'北京'</default>
+      <summary>城市显示名称</summary>
+    </key>
+    <key name="update-interval" type="i">
+      <default>30</default>
+      <summary>更新间隔（分钟）</summary>
+    </key>
+    <key name="show-in-calendar" type="b">
+      <default>true</default>
+      <summary>在日历面板显示天气</summary>
+    </key>
+    <key name="panel-position" type="s">
+      <default>'right'</default>
+      <summary>面板位置 (left / center / right)</summary>
+    </key>
+    <key name="panel-index" type="i">
+      <default>0</default>
+      <summary>面板位置索引（越小越靠左）</summary>
+    </key>
+    <key name="use-qweather-icons" type="b">
+      <default>true</default>
+      <summary>使用和风天气SVG图标</summary>
+    </key>
+
+    <!-- 心知天气 -->
+    <key name="api-key" type="s">
+      <default>''</default>
+      <summary>心知天气 API Key</summary>
+    </key>
+    <key name="city-id" type="s">
+      <default>'beijing'</default>
+      <summary>心知天气城市标识</summary>
+    </key>
+
+    <!-- 和风天气 -->
+    <key name="qweather-key" type="s">
+      <default>''</default>
+      <summary>和风天气 API Key</summary>
+    </key>
+    <key name="qweather-host" type="s">
+      <default>''</default>
+      <summary>和风天气 API Host (控制台获取)</summary>
+    </key>
+    <key name="qweather-city-id" type="s">
+      <default>'101010100'</default>
+      <summary>和风天气城市LocationID</summary>
+    </key>
+
+    <!-- API 调用计数 -->
+    <key name="api-call-count" type="i">
+      <default>0</default>
+      <summary>本月API调用次数</summary>
+    </key>
+    <key name="api-call-month" type="s">
+      <default>''</default>
+      <summary>调用计数所属月份</summary>
+    </key>
+  </schema>
+</schemalist>

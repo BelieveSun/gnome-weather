@@ -1,0 +1,8 @@
+{
+  "uuid": "gnome-weather@sungj",
+  "name": "心知/和风天气 GNOME Weather",
+  "description": "基于心知/和风天气API的GNOME天气扩展，支持实时天气、未来15天预报、生活指数、城市搜索",
+  "shell-version": ["46", "47", "48"],
+  "settings-schema": "org.gnome.shell.extensions.seniverse-weather",
+  "url": "https://www.seniverse.com,https://www.qweather.com"
+}

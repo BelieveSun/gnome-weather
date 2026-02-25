@@ -1,0 +1,86 @@
+/* 弹出菜单整体宽度 */
+.sw-current-box {
+    padding: 8px 4px;
+    min-width: 300px;
+}
+
+.sw-city {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.sw-temp {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.sw-desc {
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+.sw-update-time {
+    font-size: 11px;
+    color: #888888;
+    margin-top: 4px;
+}
+
+.sw-current-icon {
+    margin-right: 4px;
+}
+
+.sw-aqi {
+    font-size: 12px;
+    margin-top: 4px;
+    color: #88ccff;
+}
+
+.sw-qw-icon {
+    -st-icon-style: regular;
+    color: transparent;
+}
+
+/* 预报行 */
+.sw-forecast-row {
+    spacing: 8px;
+}
+
+.sw-forecast-day {
+    font-weight: bold;
+}
+
+.sw-forecast-text {
+    margin-left: 6px;
+}
+
+.sw-forecast-temp {
+    color: #aaaaaa;
+}
+
+/* 生活指数 */
+.sw-life-row {
+    spacing: 8px;
+}
+
+.sw-life-icon {
+    margin-right: 4px;
+}
+
+.sw-life-name {
+    font-weight: bold;
+}
+
+.sw-life-brief {
+    color: #cccccc;
+}
+
+/* 日历集成 */
+.sw-cal-box {
+    padding: 8px 16px;
+    spacing: 8px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sw-cal-label {
+    font-size: 13px;
+}
