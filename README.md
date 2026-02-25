@@ -111,4 +111,5 @@ gnome-weather@sungj/
 
 ## 许可
 
-代码: MIT | 和风天气图标: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- 代码: [Apache License 2.0](LICENSE)
+- 和风天气图标 (`icons/` 目录): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) © QWeather
